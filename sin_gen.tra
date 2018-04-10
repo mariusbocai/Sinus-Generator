@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'sin_gen.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"main.o"'
+### ADS-LD Command completed:
+--device DARMP "startup.o" "main.o" --strict --scatter "sin_gen.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\sin_gen.map" -o "sin_gen.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'sin_gen.axf'
+### ADS-LD Command File: 'sin_gen.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'sin_gen.lnp', Handle=0x000001FC
+### Writing '.lnp' file
+### ADS-LD Command file 'sin_gen.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

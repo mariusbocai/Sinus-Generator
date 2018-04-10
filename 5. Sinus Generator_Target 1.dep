@@ -1,0 +1,5 @@
+Dependencies for Project '5. Sinus Generator', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4BDD83BE)(--device DARMP --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o")
+F (.\main.c)(0x4BDD8C14)(-c --device DARMP -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\Philips" -o "main.o" --omf_browse "main.crf" --depend "main.d")
+I (LPC214x.h)(0x48D89892)
+F (.\LPC214x.h)(0x48D89892)()
